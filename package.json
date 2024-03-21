@@ -2,12 +2,12 @@
   "name": "jambackend",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "keywords": [
     "javascript",
     "backend",
-    "chai"
+    "jam"
   ],
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
